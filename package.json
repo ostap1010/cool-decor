@@ -1,0 +1,34 @@
+{
+  "name": "cool-decor",
+  "version": "0.1.0",
+  "description": "Cool TypeScript decorators",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ostap1010/cool-decor.git"
+  },
+  "keywords": [
+    "decorator",
+    "TypeScript",
+    "TS",
+    "ES6"
+  ],
+  "author": "Ostap Kravchuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ostap1010/cool-decor/issues"
+  },
+  "homepage": "https://github.com/ostap1010/cool-decor#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.1.2",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.5.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-webpack": "^2.0.2",
+    "typescript": "^2.2.1",
+    "webpack": "^2.2.1"
+  }
+}
