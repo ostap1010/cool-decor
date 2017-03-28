@@ -4,7 +4,8 @@
   "description": "Cool TypeScript decorators",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma start",
+    "build": "webpack --progress"
   },
   "repository": {
     "type": "git",
@@ -23,12 +24,21 @@
   },
   "homepage": "https://github.com/ostap1010/cool-decor#readme",
   "devDependencies": {
+    "@types/jasmine": "^2.5.46",
+    "@types/node": "^7.0.11",
     "awesome-typescript-loader": "^3.1.2",
+    "electron": "^1.6.2",
     "jasmine-core": "^2.5.2",
     "karma": "^1.5.0",
+    "karma-electron": "^5.1.1",
     "karma-jasmine": "^1.1.0",
+    "karma-nyan-reporter": "^0.2.5",
+    "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^2.0.2",
+    "source-map-loader": "^0.2.0",
+    "ts-node": "^3.0.2",
     "typescript": "^2.2.1",
-    "webpack": "^2.2.1"
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
   }
 }

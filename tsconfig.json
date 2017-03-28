@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "pretty": true,
+    "lib": ["es2015", "dom"],
+    "types" : ["jasmine", "node"],
+    "baseUrl": "src"
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "filesGlob": [
+    "./src/**/*.ts"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "useCache": false,
+    "resolveGlobs": true,
+    "forkChecker": true,
+    "cacheDirectory": "node_modules/.awesome-typescript-loader-cache"
+  },
+  "compileOnSave": false,
+  "buildOnSave": false
+}
