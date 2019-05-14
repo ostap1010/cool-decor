@@ -1,2 +1,2 @@
 # cool-decor
-Cool TypeScript decorators 1
+Cool TypeScript decorators
