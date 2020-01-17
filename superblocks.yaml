@@ -11,7 +11,7 @@ jobs:
   test:
     image: node
     script:
-      - echo Multiple Jobs can be defined the same way as single jobs
+      - ecultiple Jobs can be defined the same way as single jobs
       - echo http://superblocks.com/docs/configuration/configuration-introduction/#section=configuration
 stages:
   - custom_sequence:
