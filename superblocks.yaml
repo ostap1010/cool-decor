@@ -13,8 +13,17 @@ jobs:
     script:
       - echo Jobs can be defined the same way as single jobs
       - echo http://superblocks.com/docs/configuration/configuration-introduction/#section=configuration
+  manualjob:
+    image: node
+    script:
+      - echo Jobs can be defined the same way as single jobs
+      - echo http://superblocks.com/docs/configuration/configuration-introduction/#section=configuration
 stages:
   - custom_sequence:
       jobs:
         - compile
         - test
+   - stageb:
+      jobs:
+        - manualjob:
+            when: manual
