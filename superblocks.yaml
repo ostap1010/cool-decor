@@ -23,7 +23,7 @@ stages:
       jobs:
         - compile
         - test
-   - stageb:
+  - stageb:
       jobs:
         - manualjob:
             when: manual
