@@ -6,7 +6,4 @@ sdsds
 werwer
 dfdf
 asda
-sdf
-dfdfdf
-sddf
-dfdfdfdf
+sdfdf
