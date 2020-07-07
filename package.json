@@ -27,7 +27,7 @@
     "@types/jasmine": "^2.5.46",
     "@types/node": "^7.0.11",
     "awesome-typescript-loader": "^3.1.2",
-    "electron": "^1.6.2",
+    "electron": "^9.1.0",
     "jasmine-core": "^2.5.2",
     "karma": "^1.5.0",
     "karma-electron": "^5.1.1",
